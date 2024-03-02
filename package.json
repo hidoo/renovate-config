@@ -1,0 +1,41 @@
+{
+  "name": "@hidoo/renovate-config",
+  "version": "0.1.0",
+  "description": "Shareable config for Renovate.",
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": "8.15.4"
+  },
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "git config --local core.hooksPath .githooks",
+    "test": "pnpm run --sequential '/^test:[^:]+$/'",
+    "test:default": "renovate-config-validator default.json",
+    "version": "pnpm run --sequential '/^(test|version:[^:]+)$/'",
+    "version:changelog": "conventional-changelog -p angular -i ./CHANGELOG.md -s -r 0",
+    "version:commit": "git add ./CHANGELOG.md"
+  },
+  "keywords": [
+    "renovate-config"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "19.0.3",
+    "@commitlint/config-conventional": "19.0.3",
+    "conventional-changelog-cli": "4.1.0",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5",
+    "renovate": "37.224.0"
+  },
+  "author": "hidoo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hidoo/renovate-config"
+  },
+  "license": "MIT"
+}
