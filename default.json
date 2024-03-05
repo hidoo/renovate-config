@@ -11,17 +11,24 @@
     ":prHourlyLimitNone",
     ":timezone(Asia/Tokyo)"
   ],
-  "packageRules": [
-    {
-      "extends": ["monorepo:commitlint"],
-      "groupName": "commitlint monorepo",
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
-      "automerge": false
-    },
-    {
-      "groupName": "devtool packages",
-      "matchPackageNames": ["lint-staged"],
-      "automerge": false
-    }
-  ]
+  "npm": {
+    "packageRules": [
+      {
+        "groupName": "lerna-lite monorepo",
+        "matchSourceUrls": ["https://github.com/lerna-lite/lerna-lite"],
+        "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+        "automerge": false
+      },
+      {
+        "extends": ["monorepo:commitlint"],
+        "automerge": false
+      },
+      {
+        "groupName": "devtool packages",
+        "matchPackageNames": ["lint-staged", "husky"],
+        "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+        "automerge": false
+      }
+    ]
+  }
 }
