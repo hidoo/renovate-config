@@ -2,10 +2,10 @@
   "name": "@hidoo/renovate-config",
   "version": "0.1.0",
   "description": "Shareable config for Renovate.",
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.5",
   "engines": {
     "node": ">=18.0.0",
-    "pnpm": "8.15.4"
+    "pnpm": "8.15.5"
   },
   "files": [],
   "publishConfig": {
