@@ -28,6 +28,11 @@
         "matchPackageNames": ["lint-staged", "husky"],
         "matchUpdateTypes": ["digest", "patch", "minor", "major"],
         "automerge": false
+      },
+      {
+        "groupName": "handlebars-lib monorepo",
+        "matchSourceUrls": ["https://github.com/hidoo/handlebars-lib"],
+        "matchUpdateTypes": ["digest", "patch", "minor", "major"]
       }
     ]
   }
