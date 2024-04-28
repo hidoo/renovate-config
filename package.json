@@ -25,7 +25,7 @@
     "renovate-config"
   ],
   "devDependencies": {
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "conventional-changelog-cli": "4.1.0",
     "lint-staged": "15.2.2",
