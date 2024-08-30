@@ -28,7 +28,7 @@
     "@commitlint/cli": "19.4.1",
     "@commitlint/config-conventional": "19.4.1",
     "conventional-changelog-cli": "5.0.0",
-    "lint-staged": "15.2.7",
+    "lint-staged": "15.2.9",
     "prettier": "3.3.3",
     "renovate": "38.52.3"
   },
