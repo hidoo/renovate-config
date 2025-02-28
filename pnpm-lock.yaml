@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@commitlint/cli':
-        specifier: 19.4.1
-        version: 19.4.1(@types/node@22.13.5)(typescript@5.8.2)
+        specifier: 19.7.1
+        version: 19.7.1(@types/node@22.13.5)(typescript@5.8.2)
       '@commitlint/config-conventional':
-        specifier: 19.4.1
-        version: 19.4.1
+        specifier: 19.7.1
+        version: 19.7.1
       conventional-changelog-cli:
         specifier: 5.0.0
         version: 5.0.0(conventional-commits-filter@5.0.0)
@@ -254,13 +254,13 @@ packages:
   '@cdktf/hcl2json@0.20.9':
     resolution: {integrity: sha512-HlYqFsvEANyQJiQx8L2j05xot+bKa6T6PInc11dUCyQh8SbpVehdbGVN39TVnv1lIjdG7E2WNuxOf1L/Y3oF5w==}
 
-  '@commitlint/cli@19.4.1':
-    resolution: {integrity: sha512-EerFVII3ZcnhXsDT9VePyIdCJoh3jEzygN1L37MjQXgPfGS6fJTWL/KHClVMod1d8w94lFC3l4Vh/y5ysVAz2A==}
+  '@commitlint/cli@19.7.1':
+    resolution: {integrity: sha512-iObGjR1tE/PfDtDTEfd+tnRkB3/HJzpQqRTyofS2MPPkDn1mp3DBC8SoPDayokfAy+xKhF8+bwRCJO25Nea0YQ==}
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@19.4.1':
-    resolution: {integrity: sha512-D5S5T7ilI5roybWGc8X35OBlRXLAwuTseH1ro0XgqkOWrhZU8yOwBOslrNmSDlTXhXLq8cnfhQyC42qaUCzlXA==}
+  '@commitlint/config-conventional@19.7.1':
+    resolution: {integrity: sha512-fsEIF8zgiI/FIWSnykdQNj/0JE4av08MudLTyYHm4FlLWemKoQvPNUYU2M/3tktWcCEyq7aOkDDgtjrmgWFbvg==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.5.0':
@@ -4342,20 +4342,20 @@ snapshots:
     dependencies:
       fs-extra: 11.2.0
 
-  '@commitlint/cli@19.4.1(@types/node@22.13.5)(typescript@5.8.2)':
+  '@commitlint/cli@19.7.1(@types/node@22.13.5)(typescript@5.8.2)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.7.1
       '@commitlint/load': 19.6.1(@types/node@22.13.5)(typescript@5.8.2)
       '@commitlint/read': 19.5.0
       '@commitlint/types': 19.5.0
-      execa: 8.0.1
+      tinyexec: 0.3.2
       yargs: 17.7.2
     transitivePeerDependencies:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.4.1':
+  '@commitlint/config-conventional@19.7.1':
     dependencies:
       '@commitlint/types': 19.5.0
       conventional-changelog-conventionalcommits: 7.0.2
@@ -4506,7 +4506,7 @@ snapshots:
 
   '@npmcli/fs@3.1.1':
     dependencies:
-      semver: 7.6.3
+      semver: 7.7.1
 
   '@octokit/auth-token@4.0.0': {}
 
@@ -4617,7 +4617,7 @@ snapshots:
       '@opentelemetry/instrumentation': 0.54.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.27.0
       forwarded-parse: 2.1.2
-      semver: 7.6.3
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -4628,7 +4628,7 @@ snapshots:
       '@types/shimmer': 1.2.0
       import-in-the-middle: 1.13.1
       require-in-the-middle: 7.5.2
-      semver: 7.6.3
+      semver: 7.7.1
       shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
@@ -4694,7 +4694,7 @@ snapshots:
       '@opentelemetry/propagator-b3': 1.27.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/propagator-jaeger': 1.27.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.27.0(@opentelemetry/api@1.9.0)
-      semver: 7.6.3
+      semver: 7.7.1
 
   '@opentelemetry/semantic-conventions@1.27.0': {}
 
@@ -5304,7 +5304,7 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.6.3
+      semver: 7.7.1
       strip-ansi: 6.0.1
       tar: 6.2.1
       tinylogic: 2.0.0
@@ -5918,7 +5918,7 @@ snapshots:
       '@one-ini/wasm': 0.1.1
       commander: 11.1.0
       minimatch: 9.0.2
-      semver: 7.6.3
+      semver: 7.7.1
 
   email-addresses@5.0.0: {}
 
@@ -6238,7 +6238,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.6.3
+      semver: 7.7.1
       serialize-error: 7.0.1
 
   global-directory@4.0.1:
@@ -7022,7 +7022,7 @@ snapshots:
 
   node-abi@3.74.0:
     dependencies:
-      semver: 7.6.3
+      semver: 7.7.1
     optional: true
 
   node-fetch@2.7.0(encoding@0.1.13):
@@ -7040,7 +7040,7 @@ snapshots:
       make-fetch-happen: 13.0.1
       nopt: 7.2.1
       proc-log: 4.2.0
-      semver: 7.6.3
+      semver: 7.7.1
       tar: 6.2.1
       which: 4.0.0
     transitivePeerDependencies:
@@ -7068,7 +7068,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.6.3
+      semver: 7.7.1
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@6.0.2:
