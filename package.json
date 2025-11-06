@@ -30,7 +30,7 @@
     "conventional-changelog-cli": "5.0.0",
     "lint-staged": "15.2.9",
     "prettier": "3.6.2",
-    "renovate": "38.142.7"
+    "renovate": "41.173.0"
   },
   "author": "hidoo",
   "repository": {
